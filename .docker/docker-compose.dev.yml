@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  jupyter:
+    image: utkusarioglu/python-econ-devcontainer:1.0.0
+    volumes:
+      - ..:/usr/src/app/workshop/economics
