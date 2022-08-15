@@ -1,17 +1,20 @@
 {
-  "name": "BEA",
+  "name": "conda-econ-repo-template.templates.utkusarioglu.com",
   "dockerComposeFile": [
     "../.docker/docker-compose.dev.yml",
     "docker-compose.yml"
   ],
   "service": "jupyter",
-  "workspaceFolder": "/usr/src/app/workshop/economics",
+  "workspaceFolder": "utkusarioglu-com/templates/conda-econ-repo-template",
   "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#004400"
     }
   },
-  "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
   "features": {
     "github-cli": "latest"
   }
