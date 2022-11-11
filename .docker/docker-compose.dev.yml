@@ -1,7 +1,9 @@
 version: "3.9"
 
 services:
-  jupyter:
-    image: utkusarioglu/conda-econ-devcontainer:1.0.3
+  conda-econ-repo-template:
+    image: utkusarioglu/conda-econ-devcontainer:1.0.8
     volumes:
-      - ..:/utkusarioglu-com/templates/conda-econ-repo-template
+      - type: bind
+        source: ..
+        target: /utkusarioglu-com/templates/conda-econ-repo-template
